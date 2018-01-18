@@ -10,26 +10,22 @@ PODS:
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
   - Specta (1.0.7)
-  - ViewControllerHierarchy (0.1.0)
+  - ViewControllerHierarchy (0.1.1)
 
 DEPENDENCIES:
   - Expecta
   - Expecta+Snapshots
   - FBSnapshotTestCase
   - Specta
-  - ViewControllerHierarchy (from `../`)
-
-EXTERNAL SOURCES:
-  ViewControllerHierarchy:
-    :path: "../"
+  - ViewControllerHierarchy
 
 SPEC CHECKSUMS:
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   Expecta+Snapshots: dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: '094f9f314decbabe373b87cc339bea235a63e07a'
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
-  ViewControllerHierarchy: 63c92a59ffdd7a309f34659898a6c019f781ee2a
+  ViewControllerHierarchy: 373a55e67e83a5b4d4b507d53060852085107918
 
-PODFILE CHECKSUM: eb50939aed9128cdad327a91901347d971539099
+PODFILE CHECKSUM: b4850cf92366e1524e44fe469514ac7342f70c4f
 
 COCOAPODS: 1.2.1

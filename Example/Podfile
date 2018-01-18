@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'ViewControllerHierarchy_Example' do
-  pod 'ViewControllerHierarchy', :path => '../'
+  pod 'ViewControllerHierarchy'
 
   target 'ViewControllerHierarchy_Tests' do
     inherit! :search_paths
