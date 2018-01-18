@@ -1,0 +1,22 @@
+{
+  "name": "ViewControllerHierarchy",
+  "version": "0.1.0",
+  "summary": "A short description of ViewControllerHierarchy.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/何宗柱/ViewControllerHierarchy",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "何宗柱": "hezongzhu@9fbank.cc"
+  },
+  "source": {
+    "git": "https://github.com/何宗柱/ViewControllerHierarchy.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ViewControllerHierarchy/Classes/**/*"
+}

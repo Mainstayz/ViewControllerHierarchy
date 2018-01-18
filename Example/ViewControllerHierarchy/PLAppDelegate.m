@@ -7,6 +7,7 @@
 //
 
 #import "PLAppDelegate.h"
+#import "UIViewController+PLHierarchy.h"
 
 @implementation PLAppDelegate
 
@@ -42,5 +43,9 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-
+- (void)applicationDidReceiveMemoryWarning:(UIApplication *)application{
+    NSLog(@"%@",[[self.window rootViewController] printHierarchy]);
+    NSLog(@"visibleViewController: %@",[[self.window rootViewController] visibleViewControllerIfExist]);
+    NSLog(@"topmostNavigationController: %@",[[self.window rootViewController] topmostNavigationControllerIfExist]);
+}
 @end

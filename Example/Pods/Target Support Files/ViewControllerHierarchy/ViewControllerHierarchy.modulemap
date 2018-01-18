@@ -1,0 +1,6 @@
+framework module ViewControllerHierarchy {
+  umbrella header "ViewControllerHierarchy-umbrella.h"
+
+  export *
+  module * { export * }
+}
