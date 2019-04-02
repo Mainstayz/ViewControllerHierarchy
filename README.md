@@ -22,7 +22,7 @@ pod 'ViewControllerHierarchy'
 
 ## Author
 
-何宗柱, hezongzhu@9fbank.cc
+何宗柱
 
 ## License
 
